@@ -276,8 +276,8 @@ def train(args):
         print("Test RMSE score: %.2f" % np.sqrt(mean_squared_error(ytest, y_pred_test)))
 
 
-    # DNN model
-    if args.model == 'DNN':
+    # FFNN model
+    if args.model == 'FFNN':
         
         # data split into train/test sets
         x_train, x_test, y_train, y_test = train_test_split(Mix_X, DF['19F NMR Signal-to-Noise Ratioa'].astype(np.float64), test_size=0.2, random_state=11)        
@@ -291,7 +291,7 @@ def train(args):
         model.fit(x_train, y_train, epochs = 1000, batch_size = 128,
                   validation_split=0.2)
         
-        filepath = 'NMR_DNN.model'
+        filepath = 'NMR_FFNN.model'
         save_model(model, filepath, save_format='h5')
         
         # model evaluation

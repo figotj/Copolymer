@@ -261,8 +261,8 @@ def train(args):
         print("Test RMSE score: %.2f" % np.sqrt(mean_squared_error(ytest, y_pred_test)))
 
 
-    # DNN model
-    if args.model == 'DNN':
+    # FFNN model
+    if args.model == 'FFNN':
         
         # data split into train/test sets for property IP
         x_train, x_test, y_train, y_test = train_test_split(X, DF['IP (eV)'], test_size=0.2, random_state=11)
@@ -277,7 +277,7 @@ def train(args):
         model.fit(x_train, y_train, epochs = 300, batch_size = 128,
                   validation_split=0.2)
         
-        filepath = 'Binary_IP_DNN.model'
+        filepath = 'Binary_IP_FFNN.model'
         save_model(model, filepath, save_format='h5')
         
         # model evaluation
@@ -305,7 +305,7 @@ def train(args):
         model.fit(x_train, y_train, epochs = 300, batch_size = 128,
                   validation_split=0.2)
         
-        filepath = 'Binary_EA_DNN.model'
+        filepath = 'Binary_EA_FFNN.model'
         save_model(model, filepath, save_format='h5')
         
         # model evaluation

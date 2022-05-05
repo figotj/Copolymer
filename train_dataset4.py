@@ -220,8 +220,8 @@ def train(args):
         print("Test RMSE score: %.2f" % np.sqrt(mean_squared_error(ytest, y_pred_test)))
         
 
-    # DNN model
-    if args.model == 'DNN':
+    # FFNN model
+    if args.model == 'FFNN':
         
         Mix_X = []
         for i in range(len(DF)):
@@ -241,7 +241,7 @@ def train(args):
         model.fit(x_train, y_train, epochs = 100, batch_size = 128,
                   validation_split=0.2)
         
-        filepath = 'PolyInfo_DNN.model'
+        filepath = 'PolyInfo_FFNN.model'
         save_model(model, filepath, save_format='h5')
         
         # model evaluation
