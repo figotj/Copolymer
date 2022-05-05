@@ -1,0 +1,12 @@
+Dataset 1
+Wilbraham L, Sprick RS, Jelfs KE, Zwijnenburg MA. Mapping binary copolymer property space with neural networks. Chemical science. 2019;10(19):4973-84.
+
+Dataset 2
+Reis M, Gusev F, Taylor NG, Chung SH, Verber MD, Lee YZ, et al. Machine-Learning-Guided Discovery of 19F MRI Agents Enabled by Automated Copolymer Synthesis. Journal of the American Chemical Society. 2021;143(42):17677-89.
+
+Dataset 3
+Pilania G, Iverson CN, Lookman T, Marrone BL. Machine-learning-based predictive modeling of glass transition temperatures: A case of polyhydroxyalkanoate homopolymers and copolymers. Journal of chemical information and modeling. 2019;59(12):5013-25.
+
+Dataset 4
+https://polymer.nims.go.jp/en/
+National Institute for Materials Science (NIMS) holds the copyright of this database system.
