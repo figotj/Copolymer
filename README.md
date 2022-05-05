@@ -1,5 +1,5 @@
 # Copolymer Machine Learning
-A machine-learning (ML) implementation that incorporate the information of both **molecular composition** and **sequence distribution** of copolymers including **random, block, and gradientt** copolymers. Please refer to our work "Machine Learning Strategies for the Structure-Property Relationship of Copolymers" for additional details.
+A machine-learning (ML) implementation that incorporate the information of both **molecular composition** and **sequence distribution** of copolymers including **random, block, and gradient** copolymers. Please refer to our work "Machine Learning Strategies for the Structure-Property Relationship of Copolymers" for additional details.
 
 <img src="Copolymers.png" width="60%">
 
