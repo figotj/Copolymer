@@ -1,0 +1,24 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: win-64
+ipykernel=6.12.1=pypi_0
+ipython=7.31.1=py37haa95532_0
+jupyter-client=6.1.12=pypi_0
+jupyter_core=4.9.2=py37haa95532_0
+matplotlib=3.5.1=pypi_0
+matplotlib-inline=0.1.2=pyhd3eb1b0_2
+numpy=1.18.5=pypi_0
+pandas=1.2.4=pypi_0
+pip=21.2.4=py37haa95532_0
+python=3.7.13=h6244533_0
+rdkit-pypi=2021.3.5.1=pypi_0
+scipy=1.4.1=pypi_0
+seaborn=0.11.2=pypi_0
+tensorboard=2.8.0=pypi_0
+tensorboard-data-server=0.6.1=pypi_0
+tensorboard-plugin-wit=1.8.1=pypi_0
+tensorflow=2.3.0=pypi_0
+tensorflow-estimator=2.3.0=pypi_0
+tensorflow-gpu-estimator=2.3.0=pypi_0
+termcolor=1.1.0=pypi_0
+xlrd=1.2.0=pypi_0
